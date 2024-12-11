@@ -1,4 +1,4 @@
-import Cart from "./potter";
+import Cart from "./potter-books";
 
 describe("Potter books discount", () => {
     let cart: Cart

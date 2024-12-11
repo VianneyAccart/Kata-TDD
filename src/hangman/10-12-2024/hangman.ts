@@ -13,7 +13,7 @@ export default class Hangman {
         this.guessResult = "#".repeat(wordToGuess.length)
     }
 
-    result(): GameState {
+    gameState(): GameState {
         if (this.mistakes === 10) {
             return {
                 state: "Loose",
